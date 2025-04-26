@@ -3,7 +3,8 @@ Matrix generation for  small molecule structure (drug and drug like compounds) s
 
 1. Load the required libraries: R language
    
-    if (!requireNamespace("BiocManager", quietly=TRUE)) {
+    if (!requireNamespace("BiocManager", quietly=TRUE))
+   {
       install.packages("BiocManager")
     }
    
