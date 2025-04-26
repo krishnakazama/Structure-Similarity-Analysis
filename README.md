@@ -6,10 +6,13 @@ Matrix generation for  small molecule structure (drug and drug like compounds) s
     if (!requireNamespace("BiocManager", quietly=TRUE)) {
       install.packages("BiocManager")
     }
+   
     BiocManager::install("ChemmineR")
+   
     BiocManager::install("ChemmineOB")
 
   library(ChemmineR)
+
   library(ChemmineOB)
 
 
