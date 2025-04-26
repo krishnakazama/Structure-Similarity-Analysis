@@ -27,7 +27,6 @@ Copy the functiona and run it
 calculate_similarity_matrix("combined.sdf") ## run this by placing your ".sdf" file instead of combined   
 Eg. 
 - **sdf_file**: A string representing the path to the SDF file.
-- 
 #### Returns:
 - A similarity matrix where each entry represents the Tanimoto similarity between pairs of compounds.
 
@@ -36,12 +35,11 @@ Eg.
 This repository contains a function to calculate the similarity matrix from an SDF file using Tanimoto similarity.
 
 ## Function
-### `calculate_similarity_matrix_from_smiles (sdf_file)`
+### `calculate_similarity_matrix_from_smiles ("combined.txt")
 Copy the functiona and run it 
-calculate_similarity_matrix("combined.sdf") ## run this by placing your ".sdf" file instead of combined   
-Eg. 
-- **sdf_file**: A string representing the path to the SDF file.
-- 
+calculate_similarity_matrix("combined.txt") ## run this by placing your ".txt file instead of combined   
+
+
 #### Returns:
 - A similarity matrix where each entry represents the Tanimoto similarity between pairs of compounds.
 
